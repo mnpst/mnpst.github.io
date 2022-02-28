@@ -19,6 +19,13 @@ body {
   width: 100px;
   padding: 10px;
 }
+
+#musicStyle {
+  margin-left: 10%;
+  width: 100px;
+  padding: 10px;
+}
+
 #filter {
   margin-bottom: 10px;
   margin-left: 0%;
