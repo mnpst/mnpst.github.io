@@ -32,8 +32,8 @@ function renderData(data) {
       } else if (j === 3) {
         html += `<p>${data[i][8]}  -   ${data[i][3]}</p>`
       } else if (j === 4) {
+        html += `<p id='rating'> Rating: ${data[i][4]}</p>`
       } else if (j === 5) {
-        html += `<p id='rating'> Rating: ${data[i][5]}</p>`
       } else if (j === 6) {
       } else if (j === 7) {
         html += `<p id='musicStyle'>${data[i][7]}</p>`
