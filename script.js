@@ -39,9 +39,9 @@ function renderData(data) {
         html += `<p id='musicStyle'>${data[i][7]}</p>`
       } else if (j === 8) {
       } else if (j === 9) {
-        html += `<p>${data[i][9]}</p>`
+        html += `<p id='decades'>${data[i][9]}</p>`
       } else {
-        html += `<p id='decades'>${data[i][j]}</p>`
+        html += `<p>${data[i][j]}</p>`
       }
 
     card.innerHTML = html;
