@@ -33,6 +33,7 @@ function renderData(data) {
         html += `<p>${data[i][8]}  -   ${data[i][3]}</p>`
       } else if (j === 4) {
       } else if (j === 5) {
+        html += `<p id='rating'> Rating: ${data[i][5]}</p>`
       } else if (j === 6) {
       } else if (j === 7) {
         html += `<p id='musicStyle'>${data[i][7]}</p>`
@@ -40,7 +41,7 @@ function renderData(data) {
       } else if (j === 9) {
         html += `<p>${data[i][9]}</p>`
       } else {
-        html += `<p>${data[i][j]}</p>`
+        html += `<p id='decades'>${data[i][j]}</p>`
       }
 
     card.innerHTML = html;

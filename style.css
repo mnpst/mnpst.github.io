@@ -21,7 +21,15 @@ body {
 }
 
 #musicStyle {
+  font-weight: italic;
+}
+
+#rating {
   font-weight: bold;
+}
+
+#decade {
+  opacity: 0.5;
 }
 
 #filter {
