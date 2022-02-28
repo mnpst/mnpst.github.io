@@ -34,7 +34,6 @@ function renderData(data) {
       } else if (j === 4) {
       } else if (j === 5) {
       } else if (j === 6) {
-        html += `<p>${data[i][6]}</p>`
       } else if (j === 7) {
         html += `<p>${data[i][7]}</p>`
       } else if (j === 8) {
