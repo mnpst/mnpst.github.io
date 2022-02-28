@@ -1,0 +1,68 @@
+body {
+  font-family: Arial;
+  font-size: 12px;
+}
+
+#container {
+  width: 100%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  display: flex;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+#filterTitle {
+  margin-left: 10%;
+  width: 100px;
+  padding: 10px;
+}
+#filter {
+  margin-bottom: 10px;
+  margin-left: 0%;
+  margin-right: auto;
+  width: 400px;
+  padding: 10px;
+}
+
+#file-input {
+  margin-bottom: 10px;
+  margin-left: 40%;
+  margin-right: 5%;
+  maxheight: 40px;
+  width: 300px;
+  padding: 10px;
+  display:block;
+}
+
+#render {
+  max-width: 500px;
+}
+
+#result-display {
+  width: 80%;
+  padding: 40px;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+  overflow: auto;
+  word-break: break-all;
+}
+
+#result-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile-card {
+  width: 200px;
+  border: solid 1px #000;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
