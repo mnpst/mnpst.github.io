@@ -25,17 +25,15 @@ function renderData(data) {
     for (let j = 0; j < data[i].length; j++) {
       if (j === 0) {
         if (data[i][j] === '') return;
-        html += `<img src=${data[i][0]} width="200" height="200">`
+        html += `<img src=${data[i][0]} id= "img${i}" width="220" height="220" class="center">`;
       } else if (j === 1) {
         html += `<p>${data[i][1]}</p>`
       } else if (j === 2) {
-        html += `<a href="https://open.spotify.com/album/${data[i][5]}" target="_blank">${data[i][2]}</a>`
+        html += `<a href="${data[i][5]}" target="_blank" id = "albumTitle">${data[i][2]}</a>`
       } else if (j === 3) {
         html += `<p>${data[i][3]}  -   ${data[i][4]}</p>`
       } else if (j === 7) {
         html += `<p id='musicStyle'>${data[i][7]}</p>`
-      } else if (j === 15) {
-        html += `<p id='rating'> Rating: ${data[i][15]}</p>`
       } else {
       }
 

@@ -1,6 +1,16 @@
 body {
   font-family: Arial;
   font-size: 12px;
+  background-color:#2F4F4FD4;
+}
+
+#title{
+text-align: center;
+font-weight: bold;
+font-size: 140px;
+margin-top: 40px;
+margin-bottom: 40px;
+background-color:#D8BFD8D4;
 }
 
 #container {
@@ -14,27 +24,13 @@ body {
   border-radius: 5px;
 }
 
-#filterTitle {
-  margin-left: 10%;
-  width: 100px;
-  padding: 10px;
-}
-
 #musicStyle {
-  font-weight: italic;
-}
-
-#rating {
-  font-weight: bold;
-}
-
-#decades {
-  color: rgba(0, 0, 0, 0);
+  font-style: italic;
 }
 
 #filter {
   margin-bottom: 10px;
-  margin-left: 0%;
+  margin-left: 10%;
   margin-right: auto;
   width: 400px;
   padding: 10px;
@@ -53,9 +49,13 @@ body {
 #render {
   max-width: 500px;
 }
+#albumTitle{
+  font-weight: bold;
+  font-size: 14px;
+}
 
 #result-display {
-  width: 80%;
+  width: 90%;
   padding: 40px;
   padding-top: 10px;
   margin-left: auto;
@@ -72,10 +72,19 @@ body {
 }
 
 .profile-card {
-  width: 200px;
+  width: 220px;
   border: solid 1px #000;
   border-radius: 5px;
   margin-right: 10px;
   margin-bottom: 10px;
   padding: 10px;
+  background-color: #D8BFD8D4;
+
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
