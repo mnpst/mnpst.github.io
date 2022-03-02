@@ -9,9 +9,20 @@ text-align: center;
 font-weight: bold;
 font-size: 140px;
 margin-top: 40px;
-margin-bottom: 40px;
-background-color:#D8BFD8D4;
+margin-bottom: 20px;
+background-color:#D8BFD8;
+position: sticky;
+top: 0;
 }
+
+#filter {
+  margin-bottom: 10px;
+  margin-left: 5%;
+  margin-right: auto;
+  width: 400px;
+  padding: 10px;
+}
+
 
 #container {
   width: 100%;
@@ -22,19 +33,14 @@ background-color:#D8BFD8D4;
   display: flex;
   overflow: hidden;
   border-radius: 5px;
+  position: sticky;
+  top: 160px;
 }
 
 #musicStyle {
   font-style: italic;
 }
 
-#filter {
-  margin-bottom: 10px;
-  margin-left: 5%;
-  margin-right: auto;
-  width: 400px;
-  padding: 10px;
-}
 
 #file-input {
   margin-bottom: 10px;
@@ -52,6 +58,18 @@ background-color:#D8BFD8D4;
 #albumTitle{
   font-weight: bold;
   font-size: 14px;
+  max-width: 28ch;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+#albumArtist{
+  font-weight: bold;
+  max-width: 35ch;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
 }
 
 #result-display {
@@ -62,8 +80,6 @@ background-color:#D8BFD8D4;
   margin-right: auto;
   border-radius: 5px;
   margin-top: 10px;
-  overflow: auto;
-  word-break: break-all;
 }
 
 #result-text {
@@ -79,12 +95,13 @@ background-color:#D8BFD8D4;
   margin-bottom: 10px;
   padding: 10px;
   background-color: #D8BFD8D4;
-
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
 }
 
 .center{
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }

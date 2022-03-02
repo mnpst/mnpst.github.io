@@ -27,7 +27,7 @@ function renderData(data) {
         if (data[i][j] === '') return;
         html += `<img src=${data[i][0]} id= "img${i}" width="220" height="220" class="center">`;
       } else if (j === 1) {
-        html += `<p>${data[i][1]}</p>`
+        html += `<p id = "albumArtist">${data[i][1]}</p>`
       } else if (j === 2) {
         html += `<a href="${data[i][5]}" target="_blank" id = "albumTitle">${data[i][2]}</a>`
       } else if (j === 3) {
