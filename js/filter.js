@@ -12,7 +12,5 @@ $("#filter").keyup(function() {
       $(this).show();
       count++;
     }
-
   });
-
 });
