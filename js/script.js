@@ -8,7 +8,7 @@ let data = undefined;
 let display = document.getElementById("result-text");
 
 
-  Papa.parse("mzk.csv", {
+  Papa.parse("./data/mzk.csv", {
     download: true,
     complete: function (result) {
     data = result.data;
