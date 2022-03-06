@@ -4,28 +4,26 @@ body {
   background-color:#2F4F4FD4;
 }
 
-#container {
-  width: 100%;
-  padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  display: flex;
-  overflow: hidden;
-  border-radius: 5px;
-  position: sticky;
-  top: 160px;
-}
 
 #title{
 text-align: center;
 font-weight: bold;
-font-size: 140px;
+font-size: 100px;
 margin-top: 40px;
-margin-bottom: 20px;
 background-color:#D8BFD8;
 position: sticky;
 top: 0;
+}
+
+#container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: sticky;
+  top: 100px;
+  padding: 16px;
+  background-color:#2F4F4F;
 }
 
 #filter {
@@ -33,16 +31,27 @@ top: 0;
   margin-left: 5%;
   margin-right: auto;
   width: 400px;
-  padding: 10px;
 }
 
 #decades {
   margin-bottom: 10px;
-  margin-right: 60%;
+  margin-right: 10%;
   width: 100px;
   padding: 10px;
 }
 
+#genres {
+  margin-bottom: 10px;
+  margin-right: 30%;
+  width: 140px;
+  padding: 10px;
+}
+
+#text {
+  font-style: italic;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 #musicStyle {
   font-style: italic;

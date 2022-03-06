@@ -32,8 +32,10 @@ function renderData(data) {
         html += `<a href="${data[i][5]}" target="_blank" id = "albumTitle">${data[i][2]}</a>`
       } else if (j === 3) {
         html += `<p>${data[i][3]}  -   ${data[i][4]}</p>`
+      } else if (j === 6) {
+        html += `<p id='musicGenre'>Genre: ${data[i][6]}</p>`
       } else if (j === 7) {
-        html += `<p id='musicStyle'>${data[i][7]}</p>`
+        html += `<p id='musicStyle'>Style: ${data[i][7]} , ${data[i][8]}</p>`
       } else if (j === 17) {
         html += `<p id='decade'>${data[i][17]}</p>`
       } else {
