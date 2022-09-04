@@ -25,7 +25,7 @@ function renderData(data) {
     for (let j = 0; j < data[i].length; j++) {
       if (j === 0) {
         if (data[i][j] === '') return;
-        html += `<img src=${data[i][0]} id= "img${i}" width="220" height="220" class="center">`;
+        html += `<img src=${data[i][0]} id= "img${i}" width="400" height="400" class="center">`;
       } else if (j === 1) {
         html += `<p id = "albumArtist">${data[i][1]}</p>`
       } else if (j === 2) {
