@@ -7,11 +7,11 @@ body {
 #title{
 text-align: center;
 font-weight: bold;
-margin-top: 40px;
+margin-top: 0px;
 background-color:#D8BFD8;
 font-size:6vw;
 position: sticky;
-top: 0;
+top: 0px;
 }
 
 #container {
@@ -20,7 +20,7 @@ top: 0;
   margin-right: auto;
   display: flex;
   position: sticky;
-  top: 100px;
+  top: 6vw;
   padding: 16px;
   background-color:#2F4F4F;
 }
