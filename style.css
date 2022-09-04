@@ -14,52 +14,40 @@ position: sticky;
 top: 0px;
 }
 
-#img {
-  width: 400px;
-  height:400px
-}
-
 #container {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
   display: flex;
   position: sticky;
   top: 6vw;
-  padding: 16px;
+  padding: 1px;
   background-color:#2F4F4F;
 }
 
 #filter {
-  margin-bottom: 10px;
-  margin-left: 5%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 10%;
   margin-right: auto;
   width: 400px;
   font-size: 20px;
 }
 
 #decades {
-  margin-bottom: 10px;
-  margin-right: 10%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-right: auto;
   width: 120px;
   padding: 10px;
   font-size: 20px;
 }
 
 #genres {
-  margin-bottom: 10px;
-  margin-right: 30%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-right: auto;
   width: 140px;
   padding: 10px;
   font-size: 20px;
-}
-
-#text {
-  font-style: italic;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: 20px;
-  display: none;
 }
 
 #musicStyle {
@@ -80,14 +68,6 @@ top: 0px;
 #render {
   max-width: 500px;
 }
-#albumTitle{
-  font-weight: bold;
-  font-size: 14px;
-  max-width: 28ch;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: clip;
-}
 
 #albumArtist{
   font-weight: bold;
@@ -97,8 +77,17 @@ top: 0px;
   text-overflow: clip;
 }
 
+#albumTitle{
+  font-weight: bold;
+  font-size: 14px;
+  max-width: 28ch;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
 #result-display {
-  width: 90%;
+  width: 100%;
   padding: 20px;
   padding-top: 10px;
   margin-left: auto;
@@ -116,9 +105,9 @@ top: 0px;
   width: 200px;
   border: solid 1px #000;
   border-radius: 5px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  padding: 10px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 8px;
   background-color: #D8BFD8D4;
   white-space: nowrap;
   overflow: hidden;
@@ -159,25 +148,17 @@ top: 0px;
     top: 90px;
   }
   #filter {
-    margin-bottom: 6px;
-    margin-left: 5%;
-    margin-right: 3%;
+    margin-left: auto;
     width: 100px;
-    font-size: 16px;
+    font-size: 14px;
   }
   #decades {
-    margin-bottom: 6px;
-    margin-right: 3%;
-    width: 80px;
-    padding: 1px;
-    font-size: 12px;
+    width: 86px;
+    font-size: 10px;
   }
 
   #genres {
-    margin-bottom: 6px;
-    margin-right: 3%;
-    width: 80px;
-    padding: 1px;
-    font-size: 12px;
+    width: 90px;
+    font-size: 10px;
   }
 }
