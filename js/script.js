@@ -33,11 +33,13 @@ function renderData(data) {
       } else if (j === 3) {
         html += `<p>${data[i][3]}</p>`
       } else if (j === 6) {
-        html += `<p id='musicGenre'>${data[i][7]}</p>`
+        html += `<p id='musicGenre'>Genre: ${data[i][7]}</p>`
       } else if (j === 7) {
         html += `<p id='musicStyle'>${data[i][8]} * ${data[i][9]}</p>`
       } else if (j === 8) {
         html += `<p>${data[i][4]} (${data[i][17]})</p>`
+      } else if (j === 9) {
+        html += `<p id='bucket'>${data[i][6]}</p>`
       } else {
       }
 
