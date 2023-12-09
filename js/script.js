@@ -14,7 +14,7 @@ let display = document.getElementById("result-text");
     data = result.data;
     renderData(data);
       }
-    });
+    });  
 
 function renderData(data) {
 
@@ -32,10 +32,12 @@ function renderData(data) {
         html += `<a href="${data[i][5]}" target="_blank" id = "albumTitle">${data[i][2]}</a>`
       } else if (j === 3) {
         html += `<p>${data[i][3]}</p>`
+      } else if (j === 5) {
+        html += `<a onclick="parseStyle('${data[i][7]}')" href="#">${data[i][7]}</a><p></p>`      
       } else if (j === 6) {
-        html += `<p id = "musicGenre">${data[i][7]}, ${data[i][8]}</p>`
+        html += `<a onclick="parseStyle('${data[i][8]}')" href="#">${data[i][8]}</a><p></p>`
       } else if (j === 7) {
-        html += `<p>${data[i][9]}</p>`
+        html += `<a onclick="parseStyle('${data[i][9]}')" href="#">${data[i][9]}</a>`
       } else if (j === 8) {
         html += `<p>${data[i][4]} (${data[i][17]})</p>`
       } else if (j === 9) {
@@ -47,4 +49,4 @@ function renderData(data) {
     display.appendChild(card);
     }
   }
-}
+};
