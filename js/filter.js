@@ -19,6 +19,7 @@ $("#filter").keyup(function() {
 
 $(".addfilter").click(function() {
   var filter = $(this).data("filter");
+  console.log(filter);
   $("#filter").val(filter);
   $("#filter").trigger("keyup");
   return false;
