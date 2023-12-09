@@ -31,11 +31,13 @@ function renderData(data) {
       } else if (j === 2) {
         html += `<a href="${data[i][5]}" target="_blank" id = "albumTitle">${data[i][2]}</a>`
       } else if (j === 3) {
-        html += `<p>${data[i][3]}  -   ${data[i][4]}</p>`
+        html += `<p>${data[i][3]}</p>`
       } else if (j === 6) {
         html += `<p id='musicGenre'>${data[i][7]}</p>`
       } else if (j === 7) {
         html += `<p id='musicStyle'>${data[i][8]}, ${data[i][9]}</p>`
+      } else if (j === 4) {
+        html += `<p>${data[i][r]}</p>`
       } else {
       }
 
