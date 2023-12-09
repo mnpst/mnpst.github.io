@@ -37,7 +37,7 @@ function renderData(data) {
       } else if (j === 7) {
         html += `<p id='musicStyle'>${data[i][8]} ${data[i][9]}</p>`
       } else if (j === 8) {
-        html += `<p>${data[i][4]}</p>`
+        html += `<p>${data[i][4]} - ${data[i][17]}</p>`
       } else {
       }
 
