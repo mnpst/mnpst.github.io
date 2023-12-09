@@ -25,19 +25,19 @@ function renderData(data) {
     for (let j = 0; j < data[i].length; j++) {
       if (j === 0) {
         if (data[i][j] === '') return;
-        html += `<img src=${data[i][0]} id= "img" width="400" height="400" class="center">`;
+        html += `<img src=${data[i][0]} id= "img" width="400" height="400" class="center"><p></p>`;
       } else if (j === 1) {
-        html += `<p id = "albumArtist">${data[i][1]}</p>`
+        html += `<a onclick="parseStyle('${data[i][1]}')" href="#">${data[i][1]}</a><p></p>`
       } else if (j === 2) {
-        html += `<a href="${data[i][5]}" target="_blank" id = "albumTitle">${data[i][2]}</a>`
+        html += `<a href="${data[i][5]}" target="_blank" id = "albumTitle">${data[i][2]}</a><p></p>`
       } else if (j === 3) {
-        html += `<p>${data[i][3]}</p>`
+        html += `<a onclick="parseStyle('${data[i][3]}')" href="#">${data[i][3]}</a><p></p>`      
       } else if (j === 5) {
-        html += `<a onclick="parseStyle('${data[i][7]}')" href="#">${data[i][7]}</a><p></p>`      
+        html += `<a onclick="parseStyle('${data[i][7]}')" id = "musicGenre" href="#">${data[i][7]}</a><p></p>`      
       } else if (j === 6) {
-        html += `<a onclick="parseStyle('${data[i][8]}')" href="#">${data[i][8]}</a><p></p>`
+        html += `<a onclick="parseStyle('${data[i][8]}')" id = "musicStyle" href="#">${data[i][8]}</a><p></p>`
       } else if (j === 7) {
-        html += `<a onclick="parseStyle('${data[i][9]}')" href="#">${data[i][9]}</a>`
+        html += `<a onclick="parseStyle('${data[i][9]}')" id = "musicStyle" href="#">${data[i][9]}</a>`
       } else if (j === 8) {
         html += `<p>${data[i][4]} (${data[i][17]})</p>`
       } else if (j === 9) {
